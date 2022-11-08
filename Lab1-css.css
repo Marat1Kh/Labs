@@ -414,3 +414,16 @@ body.lock {
     max-width: 240px;
     margin: 0 auto 30px;
 }
+a, a:visited {
+   color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black;
+    text-decoration: grey;
+}
+.footer_txt_dec{
+    color: grey;
+    text-underline-mode: none;
+}
