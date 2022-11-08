@@ -1,7 +1,3 @@
-@font-face {
-    font-family: Gilroy;
-    font-style: normal;
-}
 * {
     padding: 0;
     margin: 0;
@@ -171,7 +167,6 @@ body.lock {
         display: none;
     }
 }
-
 .dropdown {
     border-bottom: 1px solid lightgray;
 }
@@ -255,7 +250,6 @@ body.lock {
         margin-bottom: 29px;
     }
 }
-
 .adobe_int {
     padding: 80px 0 80px;
 }
@@ -287,7 +281,6 @@ body.lock {
         flex-basis: 100%;
     }
 }
-
 .adobe_imgs {
     display: flex;
     flex-direction: column;
@@ -325,7 +318,6 @@ body.lock {
 .item-skills__rating img:not(:last-child) {
     margin-right: 3px;
 }
-
 .portfolio {
     padding: 100px 0 92px;
     text-align: center;
@@ -343,7 +335,7 @@ body.lock {
     margin-bottom: 44px;
 }
 .portfolio_links {
-    font-size: 34px;
+    font-size: 18px;
     line-height: 12px;
     color:black;
 }
@@ -399,6 +391,11 @@ body.lock {
     .footer_button {
         width: 100%;
         margin-bottom: 75px;
+    }
+    .social_links {
+        font-size: 12px;
+        line-height: 12px;
+        color:black;
     }
 }
 
